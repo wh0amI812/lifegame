@@ -6,14 +6,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Include directories
 include_directories(include)
-include_directories(src)
 
 # Source files
 file(GLOB SRCS 
     src/core/*.cpp
-    src/ui/*.cpp 
-    src/utils/*.cpp
-    src/data/*.cpp
+    src/main.cpp
 )
 
 # Executable
